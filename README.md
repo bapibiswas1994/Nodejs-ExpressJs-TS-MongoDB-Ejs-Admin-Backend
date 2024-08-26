@@ -1,4 +1,8 @@
-## Project Name
+# Project Name
+
+NodeJs and ExpressJs Backend Setup with EJS Admin Portals
+
+## Project Description
 
 This is a Node.js project using Express, TypeScript, and MongoDB, designed to handle both a mobile application API and an admin portal with EJS templates. The project also integrates Passport for authentication, Multer for file uploads, Joi for validation, Redis for caching, and named routes for the web routes.
 
@@ -89,6 +93,7 @@ npm install
 ```
 
 ### Environment Variables
+
 Create a .env file at the root of the project and add the following variables:
 
 ```plaintext
@@ -96,12 +101,15 @@ SESSION_SECRET=your-session-secret
 REDIS_URL=redis://localhost:6379
 MONGODB_URI=mongodb://localhost:27017/your-database
 ```
+
 ### Run the Project
+
 To start the project in development mode, run:
 
 ```bash
 npm run dev
 ```
+
 This will compile the TypeScript files and start the Express server.
 
 ## Features
@@ -131,4 +139,5 @@ Contribution
 Feel free to fork this project and contribute by creating pull requests. Ensure your code follows the existing structure and conventions.
 
 ## License
+
 This project is licensed under the MIT License.
